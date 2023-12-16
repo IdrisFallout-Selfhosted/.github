@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to [Organization Name]! We are dedicated to [brief description of your organization's purpose, goals, or mission].
+Welcome to IdrisFallout-SelfHosted! We are dedicated to [brief description of your organization's purpose, goals, or mission].
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to [Organization Name]! We are dedicated to [brief description of your o
 
 ## Getting Started
 
-To get started with [Organization Name], follow these steps:
+To get started with IdrisFallout-SelfHosted, follow these steps:
 
 1. **Fork** the repository you're interested in.
 2. **Clone** the forked repository to your local machine.
@@ -25,7 +25,7 @@ For detailed instructions, refer to the specific repository's README or CONTRIBU
 
 ## Contributing
 
-We welcome contributions from everyone! Please read our [Contribution Guidelines](CONTRIBUTING.md) to learn more about how you can contribute to [Organization Name].
+We welcome contributions from everyone! Please read our [Contribution Guidelines](CONTRIBUTING.md) to learn more about how you can contribute to IdrisFallout-SelfHosted.
 
 ## Code of Conduct
 
