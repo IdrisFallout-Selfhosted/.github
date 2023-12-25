@@ -32,13 +32,17 @@ We welcome contributions from everyone! Here's how you can get involved:
 3. **Make** your contributions.
 4. **Create** a pull request describing your changes.
 
+## Join Our Organization
+
+Interested in joining our organization and collaborating with us? [Request to join here](link-to-join-request) and be a part of our innovative community!
+
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
 
-- **Email**: [waithakasam2017@gmail.com](mailto:waithakasam2017@gmail.com)
-- **Twitter**: [@IdrisFallout](https://twitter.com/IdrisFallout)
-- **Discord**: [Link to Discord Server](https://discord.gg/FqFUBZZw)
+- **Email**: [your@email.com](mailto:your@email.com)
+- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+- **Discord**: [Link to Discord Server](https://discord.gg/your-server)
 
 Join us in making an impact through creativity and collaboration!
 
