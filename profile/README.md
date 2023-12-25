@@ -14,14 +14,14 @@ At IdrisFallout-Selfhosted, we are passionate about:
 
 Here are some of the amazing projects currently hosted within our organization:
 
-### [Project Name 1](link-to-project-1)
-Description or brief introduction about Project 1.
+### [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp)
+The CrimeReportingApp is a community-driven application aimed at enhancing public safety. It allows users to report incidents and suspicious activities, fostering a secure environment through collective awareness.
 
-### [Project Name 2](link-to-project-2)
-Description or brief introduction about Project 2.
+### [GeminiAIChatBot](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot)
+GeminiAIChatBot is an innovative conversational AI designed to assist and engage users. With advanced natural language processing, it provides personalized interactions, helping users with queries and tasks efficiently.
 
-### [Project Name 3](link-to-project-3)
-Description or brief introduction about Project 3.
+### [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie)
+ConvoGenie is a versatile conversation generation tool that leverages machine learning techniques. It generates contextually relevant and engaging conversations, catering to various communication needs across platforms.
 
 ## How to Contribute
 
