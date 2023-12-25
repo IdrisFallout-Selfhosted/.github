@@ -36,9 +36,9 @@ We welcome contributions from everyone! Here's how you can get involved:
 
 We'd love to hear from you! Connect with us:
 
-- **Email**: [your@email.com](mailto:your@email.com)
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-- **Discord**: [Link to Discord Server](https://discord.gg/your-server)
+- **Email**: [waithakasam2017@gmail.com](mailto:waithakasam2017@gmail.com)
+- **Twitter**: [@IdrisFallout](https://twitter.com/IdrisFallout)
+- **Discord**: [Link to Discord Server](https://discord.gg/IdrisFallout)
 
 Join us in making an impact through creativity and collaboration!
 
