@@ -42,7 +42,7 @@ We'd love to hear from you! Connect with us:
 
 - **Email**: [waithakasam2017@gmail.com](mailto:waithakasam2017@gmail.com)
 - **Twitter**: [@IdrisFallout](https://twitter.com/IdrisFallout)
-- **Discord**: [Link to Discord Server](https://discord.gg/FqFUBZZw)
+- **Discord**: [Link to Discord Server](https://discord.gg/ntkyAxvFc4)
 
 Join us in making an impact through creativity and collaboration!
 
