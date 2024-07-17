@@ -40,7 +40,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 
 We'd love to hear from you! Connect with us:
 
-- **Email**: [waithakasam2017@gmail.com](mailto:waithakasam2017@gmail.com)
+- **Email**: [business@waithakasam.com](mailto:business@waithakasam.com)
 - **Twitter**: [@IdrisFallout](https://twitter.com/IdrisFallout)
 - **Discord**: [Link to Discord Server](https://discord.gg/ntkyAxvFc4)
 
