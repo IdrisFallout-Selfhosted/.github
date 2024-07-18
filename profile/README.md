@@ -59,7 +59,7 @@ Happy coding! 🌟
 | [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) | No description provided. | <span style='color:red'>Private</span> |
 | [ClassAttendanceTracker](https://github.com/IdrisFallout-Selfhosted/ClassAttendanceTracker) | No description provided. | <span style='color:red'>Private</span> |
 | [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. | <span style='color:green'>Public</span> |
-| [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | An API to interact with GeminiAI | <span style='color:red'>Private</span> |
 | [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. | <span style='color:red'>Private</span> |
 | [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | No description provided. | <span style='color:red'>Private</span> |
 | [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. | <span style='color:red'>Private</span> |
