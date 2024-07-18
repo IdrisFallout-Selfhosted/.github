@@ -51,12 +51,13 @@ def update_readme_with_repos():
 
         # Generate Markdown table for repositories
         markdown_table = "\n## Repositories\n\n"
-        markdown_table += "| Repository | Description |\n"
-        markdown_table += "|------------|-------------|\n"
+        markdown_table += "| Repository | Description | Visibility |\n"
+        markdown_table += "|------------|-------------|------------|\n"
         for repo in repos:
             # Fetch repository description
             description = repo['description'] if repo['description'] else "No description provided."
-            markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} |\n"
+            visibility = "Private" if repo['private'] else "Public"
+            markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} | {visibility} |\n"
 
         # Fetch current README content and SHA
         readme_content, sha = fetch_readme_content()
