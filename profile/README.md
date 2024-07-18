@@ -53,7 +53,7 @@ Happy coding! 🌟
 |------------|-------------|------------|
 | [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) | A police station server backend system | <span style='color:red'>Private</span> |
 | [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) | A police station admin web dashboard | <span style='color:red'>Private</span> |
-| [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | No description provided. | <span style='color:red'>Private</span> |
+| [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | A police station crime reporter mobile client | <span style='color:red'>Private</span> |
 | [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) | No description provided. | <span style='color:red'>Private</span> |
 | [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) | No description provided. | <span style='color:red'>Private</span> |
 | [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) | No description provided. | <span style='color:red'>Private</span> |
