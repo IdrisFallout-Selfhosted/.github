@@ -3,10 +3,6 @@ import requests
 import base64
 
 def fetch_readme_content():
-    """
-    Fetches the current content of README.md from the specified GitHub repository.
-    Returns the decoded content and the SHA of the file if it exists, otherwise returns None.
-    """
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
     headers = {
@@ -29,10 +25,6 @@ def fetch_readme_content():
         return None, None
 
 def update_readme_with_repos():
-    """
-    Updates the README.md in the specified GitHub repository with a table listing organization repositories and descriptions.
-    Appends a new table if no existing table is found, otherwise replaces the existing table.
-    """
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
     committer_name = os.getenv('COMMITTER_NAME')
@@ -56,7 +48,7 @@ def update_readme_with_repos():
         for repo in repos:
             # Fetch repository description
             description = repo['description'] if repo['description'] else "No description provided."
-            visibility = "Private" if repo['private'] else "Public"
+            visibility = "<span style='color:red'>Private</span>" if repo['private'] else "<span style='color:green'>Public</span>"
             markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} | {visibility} |\n"
 
         # Fetch current README content and SHA
