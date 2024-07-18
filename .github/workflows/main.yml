@@ -35,3 +35,13 @@ jobs:
           GITHUB_TOKEN: ${{ github.event.inputs.github_token }}
           GITHUB_ORGANIZATION: ${{ github.event.inputs.github_organization }}
         run: python generate_readme.py
+
+      - name: Commit README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with organization repository list"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
