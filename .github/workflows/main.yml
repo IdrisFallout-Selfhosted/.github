@@ -7,6 +7,10 @@ on:
         description: 'GitHub Token'
         required: true
         type: string
+      github_organization:
+        description: 'GitHub Organization'
+        required: true
+        type: string
 
 jobs:
   fetch_repos:
@@ -29,4 +33,5 @@ jobs:
       - name: Fetch and print repositories
         env:
           GITHUB_TOKEN: ${{ github.event.inputs.github_token }}
+          GITHUB_ORGANIZATION: ${{ github.event.inputs.github_organization }}
         run: python generate_readme.py
