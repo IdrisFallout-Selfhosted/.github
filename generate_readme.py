@@ -19,15 +19,17 @@ def fetch_readme_content():
         readme_data = response.json()
         # Decode base64 content
         readme_content = base64.b64decode(readme_data['content']).decode('utf-8')
-        return readme_content
+        return readme_content, readme_data['sha']
+    elif response.status_code == 404:
+        return None, None  # README.md not found
     else:
         print(f"Failed to fetch README.md. Status code: {response.status_code}")
         print(response.text)
-        return None
+        return None, None
 
 def update_readme_with_repos():
     """
-    Updates the README.md in the specified GitHub repository with a table listing organization repositories.
+    Updates the README.md in the specified GitHub repository with a table listing organization repositories and descriptions.
     """
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
@@ -47,23 +49,26 @@ def update_readme_with_repos():
 
         # Generate Markdown table for repositories
         markdown_table = "\n## Repositories\n\n"
-        markdown_table += "| Repository |\n"
-        markdown_table += "|------------|\n"
+        markdown_table += "| Repository | Description |\n"
+        markdown_table += "|------------|-------------|\n"
         for repo in repos:
-            markdown_table += f"| [{repo['name']}]({repo['html_url']}) |\n"
+            # Fetch repository description
+            description = repo['description'] if repo['description'] else "No description provided."
+            markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} |\n"
 
-        # Append table to existing README content
-        readme_content = fetch_readme_content()
-
-        if readme_content:
-            updated_readme_content = readme_content + markdown_table
+        # Append or replace table in existing README content
+        readme_content, sha = fetch_readme_content()
+        if readme_content is not None and sha is not None:
+            # Check if table already exists and replace it
+            start_index = readme_content.find("## Repositories")
+            end_index = readme_content.find("\n\n## ", start_index + 1)
+            if start_index != -1 and end_index != -1:
+                updated_readme_content = readme_content[:start_index] + markdown_table + readme_content[end_index:]
+            else:
+                updated_readme_content = readme_content + markdown_table
 
             # Base64 encode the updated content
             encoded_content = base64.b64encode(updated_readme_content.encode('utf-8')).decode('utf-8')
-
-            # Fetch latest README sha
-            readme_data = requests.get(f'https://api.github.com/repos/{org}/.github/contents/profile/README.md', headers=headers).json()
-            sha = readme_data['sha']
 
             # Commit changes using GitHub REST API
             commit_message = "Update README with organization repository list"
