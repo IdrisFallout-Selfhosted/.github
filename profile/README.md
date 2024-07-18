@@ -63,7 +63,7 @@ Happy coding! 🌟
 | [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. | <span style='color:red'>Private</span> |
 | [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | No description provided. | <span style='color:red'>Private</span> |
 | [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. | <span style='color:red'>Private</span> |
-| [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | No description provided. | <span style='color:green'>Public</span> |
+| [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | An android client app to use GeminiAI | <span style='color:green'>Public</span> |
 | [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | No description provided. | <span style='color:red'>Private</span> |
 | [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) | No description provided. | <span style='color:red'>Private</span> |
 | [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | No description provided. | <span style='color:red'>Private</span> |
