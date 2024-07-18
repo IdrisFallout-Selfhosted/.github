@@ -48,40 +48,42 @@ Join us in making an impact through creativity and collaboration!
 
 Happy coding! 🌟
 
+
 ## Repositories
 
-| Repository |
-|------------|
-| [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) |
-| [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) |
-| [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) |
-| [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) |
-| [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) |
-| [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) |
-| [ClassAttendanceTracker](https://github.com/IdrisFallout-Selfhosted/ClassAttendanceTracker) |
-| [.github](https://github.com/IdrisFallout-Selfhosted/.github) |
-| [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) |
-| [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) |
-| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) |
-| [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) |
-| [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) |
-| [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) |
-| [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) |
-| [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) |
-| [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) |
-| [mediamorphmp3_gateway](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_gateway) |
-| [mediamorphmp3_converter](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_converter) |
-| [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) |
-| [RealFlowVision](https://github.com/IdrisFallout-Selfhosted/RealFlowVision) |
-| [TukoNewsAPI](https://github.com/IdrisFallout-Selfhosted/TukoNewsAPI) |
-| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) |
-| [ImageProbe_Server](https://github.com/IdrisFallout-Selfhosted/ImageProbe_Server) |
-| [DreamForgeNotificationBot](https://github.com/IdrisFallout-Selfhosted/DreamForgeNotificationBot) |
-| [Portfolio_Server](https://github.com/IdrisFallout-Selfhosted/Portfolio_Server) |
-| [Portfolio_MediaOptimizer](https://github.com/IdrisFallout-Selfhosted/Portfolio_MediaOptimizer) |
-| [PortfolioWebsite_Frontend](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite_Frontend) |
-| [portfolio-website-frontend](https://github.com/IdrisFallout-Selfhosted/portfolio-website-frontend) |
-| [WhisperAPI](https://github.com/IdrisFallout-Selfhosted/WhisperAPI) |
+| Repository | Description |
+|------------|-------------|
+| [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) | No description provided. |
+| [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) | No description provided. |
+| [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | No description provided. |
+| [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) | No description provided. |
+| [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) | No description provided. |
+| [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) | No description provided. |
+| [ClassAttendanceTracker](https://github.com/IdrisFallout-Selfhosted/ClassAttendanceTracker) | No description provided. |
+| [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. |
+| [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | No description provided. |
+| [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. |
+| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | No description provided. |
+| [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. |
+| [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | No description provided. |
+| [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | No description provided. |
+| [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) | No description provided. |
+| [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | No description provided. |
+| [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) | No description provided. |
+| [mediamorphmp3_gateway](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_gateway) | No description provided. |
+| [mediamorphmp3_converter](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_converter) | No description provided. |
+| [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) | No description provided. |
+| [RealFlowVision](https://github.com/IdrisFallout-Selfhosted/RealFlowVision) | No description provided. |
+| [TukoNewsAPI](https://github.com/IdrisFallout-Selfhosted/TukoNewsAPI) | No description provided. |
+| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | No description provided. |
+| [ImageProbe_Server](https://github.com/IdrisFallout-Selfhosted/ImageProbe_Server) | No description provided. |
+| [DreamForgeNotificationBot](https://github.com/IdrisFallout-Selfhosted/DreamForgeNotificationBot) | No description provided. |
+| [Portfolio_Server](https://github.com/IdrisFallout-Selfhosted/Portfolio_Server) | No description provided. |
+| [Portfolio_MediaOptimizer](https://github.com/IdrisFallout-Selfhosted/Portfolio_MediaOptimizer) | No description provided. |
+| [PortfolioWebsite_Frontend](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite_Frontend) | No description provided. |
+| [portfolio-website-frontend](https://github.com/IdrisFallout-Selfhosted/portfolio-website-frontend) | This is my portfolio website |
+| [WhisperAPI](https://github.com/IdrisFallout-Selfhosted/WhisperAPI) | No description provided. |
+
 
 ## Repositories
 
