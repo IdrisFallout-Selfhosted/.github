@@ -29,4 +29,4 @@ jobs:
       - name: Fetch and print repositories
         env:
           GITHUB_TOKEN: ${{ github.event.inputs.github_token }}
-        run: generate_readme.py
+        run: python generate_readme.py
