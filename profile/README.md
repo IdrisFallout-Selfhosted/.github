@@ -73,7 +73,7 @@ Happy coding! 🌟
 | [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) | No description provided. | <span style='color:red'>Private</span> |
 | [RealFlowVision](https://github.com/IdrisFallout-Selfhosted/RealFlowVision) | No description provided. | <span style='color:red'>Private</span> |
 | [TukoNewsAPI](https://github.com/IdrisFallout-Selfhosted/TukoNewsAPI) | No description provided. | <span style='color:red'>Private</span> |
-| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | No description provided. | <span style='color:green'>Public</span> |
+| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | Mobile application for Tuko News | <span style='color:green'>Public</span> |
 | [ImageProbe_Server](https://github.com/IdrisFallout-Selfhosted/ImageProbe_Server) | No description provided. | <span style='color:red'>Private</span> |
 | [DreamForgeNotificationBot](https://github.com/IdrisFallout-Selfhosted/DreamForgeNotificationBot) | No description provided. | <span style='color:red'>Private</span> |
 | [Portfolio_Server](https://github.com/IdrisFallout-Selfhosted/Portfolio_Server) | No description provided. | <span style='color:red'>Private</span> |
