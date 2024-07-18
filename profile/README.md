@@ -51,7 +51,7 @@ Happy coding! 🌟
 
 | Repository | Description | Visibility |
 |------------|-------------|------------|
-| [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) | A police station server backend system | <span style='color:red'>Private</span> |
 | [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) | No description provided. | <span style='color:red'>Private</span> |
 | [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | No description provided. | <span style='color:red'>Private</span> |
 | [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) | No description provided. | <span style='color:red'>Private</span> |
