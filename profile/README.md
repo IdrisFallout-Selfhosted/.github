@@ -51,33 +51,33 @@ Happy coding! 🌟
 
 | Repository | Description | Visibility |
 |------------|-------------|------------|
-| [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) | No description provided. | Private |
-| [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) | No description provided. | Private |
-| [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | No description provided. | Private |
-| [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) | No description provided. | Private |
-| [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) | No description provided. | Private |
-| [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) | No description provided. | Private |
-| [ClassAttendanceTracker](https://github.com/IdrisFallout-Selfhosted/ClassAttendanceTracker) | No description provided. | Private |
-| [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. | Public |
-| [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | No description provided. | Private |
-| [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. | Private |
-| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | No description provided. | Private |
-| [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. | Private |
-| [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | No description provided. | Public |
-| [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | No description provided. | Private |
-| [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) | No description provided. | Private |
-| [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | No description provided. | Private |
-| [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) | No description provided. | Private |
-| [mediamorphmp3_gateway](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_gateway) | No description provided. | Private |
-| [mediamorphmp3_converter](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_converter) | No description provided. | Private |
-| [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) | No description provided. | Private |
-| [RealFlowVision](https://github.com/IdrisFallout-Selfhosted/RealFlowVision) | No description provided. | Private |
-| [TukoNewsAPI](https://github.com/IdrisFallout-Selfhosted/TukoNewsAPI) | No description provided. | Private |
-| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | No description provided. | Public |
-| [ImageProbe_Server](https://github.com/IdrisFallout-Selfhosted/ImageProbe_Server) | No description provided. | Private |
-| [DreamForgeNotificationBot](https://github.com/IdrisFallout-Selfhosted/DreamForgeNotificationBot) | No description provided. | Private |
-| [Portfolio_Server](https://github.com/IdrisFallout-Selfhosted/Portfolio_Server) | No description provided. | Private |
-| [Portfolio_MediaOptimizer](https://github.com/IdrisFallout-Selfhosted/Portfolio_MediaOptimizer) | No description provided. | Private |
-| [PortfolioWebsite_Frontend](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite_Frontend) | No description provided. | Private |
-| [portfolio-website-frontend](https://github.com/IdrisFallout-Selfhosted/portfolio-website-frontend) | This is my portfolio website | Private |
-| [WhisperAPI](https://github.com/IdrisFallout-Selfhosted/WhisperAPI) | No description provided. | Private |
+| [CrimeReportingApp_Server](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) | No description provided. | <span style='color:red'>Private</span> |
+| [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | No description provided. | <span style='color:red'>Private</span> |
+| [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) | No description provided. | <span style='color:red'>Private</span> |
+| [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) | No description provided. | <span style='color:red'>Private</span> |
+| [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) | No description provided. | <span style='color:red'>Private</span> |
+| [ClassAttendanceTracker](https://github.com/IdrisFallout-Selfhosted/ClassAttendanceTracker) | No description provided. | <span style='color:red'>Private</span> |
+| [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. | <span style='color:green'>Public</span> |
+| [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. | <span style='color:red'>Private</span> |
+| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | No description provided. | <span style='color:red'>Private</span> |
+| [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | No description provided. | <span style='color:green'>Public</span> |
+| [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) | No description provided. | <span style='color:red'>Private</span> |
+| [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | No description provided. | <span style='color:red'>Private</span> |
+| [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) | No description provided. | <span style='color:red'>Private</span> |
+| [mediamorphmp3_gateway](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_gateway) | No description provided. | <span style='color:red'>Private</span> |
+| [mediamorphmp3_converter](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_converter) | No description provided. | <span style='color:red'>Private</span> |
+| [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) | No description provided. | <span style='color:red'>Private</span> |
+| [RealFlowVision](https://github.com/IdrisFallout-Selfhosted/RealFlowVision) | No description provided. | <span style='color:red'>Private</span> |
+| [TukoNewsAPI](https://github.com/IdrisFallout-Selfhosted/TukoNewsAPI) | No description provided. | <span style='color:red'>Private</span> |
+| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | No description provided. | <span style='color:green'>Public</span> |
+| [ImageProbe_Server](https://github.com/IdrisFallout-Selfhosted/ImageProbe_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [DreamForgeNotificationBot](https://github.com/IdrisFallout-Selfhosted/DreamForgeNotificationBot) | No description provided. | <span style='color:red'>Private</span> |
+| [Portfolio_Server](https://github.com/IdrisFallout-Selfhosted/Portfolio_Server) | No description provided. | <span style='color:red'>Private</span> |
+| [Portfolio_MediaOptimizer](https://github.com/IdrisFallout-Selfhosted/Portfolio_MediaOptimizer) | No description provided. | <span style='color:red'>Private</span> |
+| [PortfolioWebsite_Frontend](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite_Frontend) | No description provided. | <span style='color:red'>Private</span> |
+| [portfolio-website-frontend](https://github.com/IdrisFallout-Selfhosted/portfolio-website-frontend) | This is my portfolio website | <span style='color:red'>Private</span> |
+| [WhisperAPI](https://github.com/IdrisFallout-Selfhosted/WhisperAPI) | No description provided. | <span style='color:red'>Private</span> |
