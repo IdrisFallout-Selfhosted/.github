@@ -1,0 +1,32 @@
+name: Deploy to Home Server
+
+on:
+  workflow_dispatch:
+    inputs:
+      github_token:
+        description: 'GitHub Token'
+        required: true
+        type: string
+
+jobs:
+  fetch_repos:
+    runs-on: raspberrypi
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Install requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch and print repositories
+        env:
+          GITHUB_TOKEN: ${{ github.event.inputs.github_token }}
+        run: generate_readme.py
