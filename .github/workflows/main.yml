@@ -48,7 +48,8 @@ jobs:
 
           # Push changes using GitHub API
           curl -X PUT \
-            -H "Authorization: token ${{ secrets.PAT }}" \
+            -H "Authorization: token ${PAT}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/IdrisFallout-Selfhosted/.github/contents/README.md \
+            https://api.github.com/repos/IdrisFallout-Selfhosted/.github/contents/profile/README.md \
             -d '{"message": "Update README with organization repository list", "content": "'$(base64 README.md)'" }'
+
