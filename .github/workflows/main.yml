@@ -37,11 +37,11 @@ jobs:
         run: python generate_readme.py
 
       - name: Commit README
+        env:
+          GITHUB_TOKEN: ${{ github.event.inputs.github_token }}
         run: |
           git config --global user.name "IdrisFallout"
           git config --global user.email "waithakasam2017@gmail.com"
           git add README.md
           git commit -m "Update README with organization repository list"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push origin main
