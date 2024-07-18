@@ -1,4 +1,4 @@
-#.github
+# .github
 
 Automates the fetching and printing of GitHub repositories of the authenticated user using the GitHub API.
 
