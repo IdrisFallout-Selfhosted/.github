@@ -5,6 +5,7 @@ import base64
 def fetch_readme_content():
     """
     Fetches the current content of README.md from the specified GitHub repository.
+    Returns the decoded content and the SHA of the file if it exists, otherwise returns None.
     """
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
@@ -30,6 +31,7 @@ def fetch_readme_content():
 def update_readme_with_repos():
     """
     Updates the README.md in the specified GitHub repository with a table listing organization repositories and descriptions.
+    Appends a new table if no existing table is found, otherwise replaces the existing table.
     """
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
@@ -56,15 +58,22 @@ def update_readme_with_repos():
             description = repo['description'] if repo['description'] else "No description provided."
             markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} |\n"
 
-        # Append or replace table in existing README content
+        # Fetch current README content and SHA
         readme_content, sha = fetch_readme_content()
         if readme_content is not None and sha is not None:
-            # Check if table already exists and replace it
+            # Check if a table already exists in README content
             start_index = readme_content.find("## Repositories")
             end_index = readme_content.find("\n\n## ", start_index + 1)
+
             if start_index != -1 and end_index != -1:
-                updated_readme_content = readme_content[:start_index] + markdown_table + readme_content[end_index:]
+                # Replace existing table
+                updated_readme_content = (
+                    readme_content[:start_index] +
+                    markdown_table +
+                    readme_content[end_index:]
+                )
             else:
+                # Append new table
                 updated_readme_content = readme_content + markdown_table
 
             # Base64 encode the updated content
