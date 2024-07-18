@@ -55,7 +55,7 @@ Happy coding! 🌟
 | [CrimeReportingApp_Frontend](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp_Frontend) | A police station admin web dashboard | <span style='color:red'>Private</span> |
 | [CrimeReportingApp](https://github.com/IdrisFallout-Selfhosted/CrimeReportingApp) | A police station crime reporter mobile client | <span style='color:red'>Private</span> |
 | [PortfolioWebsite](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite) | No description provided. | <span style='color:red'>Private</span> |
-| [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) | No description provided. | <span style='color:red'>Private</span> |
+| [GSMUPLOAD3.0](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0) | A Smart Billboard | <span style='color:red'>Private</span> |
 | [GSMUPLOAD3.0_Display](https://github.com/IdrisFallout-Selfhosted/GSMUPLOAD3.0_Display) | No description provided. | <span style='color:red'>Private</span> |
 | [ClassAttendanceTracker](https://github.com/IdrisFallout-Selfhosted/ClassAttendanceTracker) | No description provided. | <span style='color:red'>Private</span> |
 | [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. | <span style='color:green'>Public</span> |
