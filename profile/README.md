@@ -66,7 +66,7 @@ Happy coding! 🌟
 | [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | An android client app to use GeminiAI | <span style='color:green'>Public</span> |
 | [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | No description provided. | <span style='color:red'>Private</span> |
 | [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) | No description provided. | <span style='color:red'>Private</span> |
-| [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | No description provided. | <span style='color:red'>Private</span> |
+| [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | An AI automation that creates a repo's README by analyzing the project | <span style='color:red'>Private</span> |
 | [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) | No description provided. | <span style='color:red'>Private</span> |
 | [mediamorphmp3_gateway](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_gateway) | No description provided. | <span style='color:red'>Private</span> |
 | [mediamorphmp3_converter](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_converter) | No description provided. | <span style='color:red'>Private</span> |
