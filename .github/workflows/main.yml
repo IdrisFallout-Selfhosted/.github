@@ -11,6 +11,14 @@ on:
         description: 'GitHub Organization'
         required: true
         type: string
+      committer_name:
+        description: 'Committer Name'
+        required: true
+        type: string
+      committer_email:
+        description: 'Committer Email'
+        required: true
+        type: string
 
 jobs:
   fetch_repos:
@@ -34,5 +42,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.event.inputs.github_token }}
           GITHUB_ORGANIZATION: ${{ github.event.inputs.github_organization }}
+          COMMITTER_NAME: ${{ github.event.inputs.committer_name }}
+          COMMITTER_EMAIL: ${{ github.event.inputs.committer_email }}
         run: |
           python generate_readme.py

@@ -5,8 +5,13 @@ import base64
 def fetch_readme_content():
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
-    headers = {'Authorization': f'token {token}'}
-    response = requests.get(f'https://api.github.com/repos/IdrisFallout-Selfhosted/.github/contents/profile/README.md', headers=headers)
+    headers = {
+        'Authorization': f'Bearer {token}',
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
+    }
+    response = requests.get(f'https://api.github.com/repos/{org}/.github/contents/profile/README.md', headers=headers)
     readme_data = response.json()
 
     # Decode base64 content
@@ -17,9 +22,13 @@ def fetch_readme_content():
 def update_readme_with_repos():
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
+    committer_name = os.getenv('COMMITTER_NAME')
+    committer_email = os.getenv('COMMITTER_EMAIL')
     headers = {
-        'Authorization': f'token {token}',
-        'Accept': 'application/vnd.github.v3+json'
+        'Authorization': f'Bearer {token}',
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
     }
 
     # Fetch repositories from GitHub API
@@ -42,11 +51,11 @@ def update_readme_with_repos():
 
     # Commit changes using GitHub REST API
     commit_message = "Update README with organization repository list"
-    api_url = f'https://api.github.com/repos/IdrisFallout-Selfhosted/.github/contents/profile/README.md'
+    api_url = f'https://api.github.com/repos/{org}/.github/contents/profile/README.md'
     payload = {
         "message": commit_message,
         "content": encoded_content,
-        "sha": readme_data['sha']
+        "committer": {"name": committer_name, "email": committer_email}
     }
 
     response = requests.put(api_url, headers=headers, json=payload)
