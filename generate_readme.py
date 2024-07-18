@@ -63,15 +63,11 @@ def update_readme_with_repos():
         if readme_content is not None and sha is not None:
             # Check if a table already exists in README content
             start_index = readme_content.find("## Repositories")
-            end_index = readme_content.find("\n\n## ", start_index + 1)
 
-            if start_index != -1 and end_index != -1:
-                # Replace existing table
-                updated_readme_content = (
-                    readme_content[:start_index] +
-                    markdown_table +
-                    readme_content[end_index:]
-                )
+            if start_index != -1:
+                # Remove the existing table by truncating the content at the start of the table
+                readme_content = readme_content[:start_index].strip()
+                updated_readme_content = readme_content + markdown_table
             else:
                 # Append new table
                 updated_readme_content = readme_content + markdown_table
