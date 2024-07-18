@@ -4,7 +4,8 @@ import requests
 def fetch_repos():
     token = os.getenv('GITHUB_TOKEN')
     headers = {'Authorization': f'token {token}'}
-    response = requests.get('https://api.github.com/user/repos', headers=headers)
+    org = 'IdrisFallout-Selfhosted'
+    response = requests.get(f'https://api.github.com/orgs/{org}/repos', headers=headers)
     repos = response.json()
 
     for repo in repos:
