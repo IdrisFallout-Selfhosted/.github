@@ -1,27 +1,30 @@
-# .github
+## .github
 
-Automates the fetching and printing of GitHub repositories of the authenticated user using the GitHub API.
+This is a repository containing automated scripts for managing the profile section of the organization's GitHub page.
 
-## Requirements
+### Functionality
 
-- Python 3.x
-- A GitHub personal access token with the `public_repo` scope
+- Fetches the latest repository list from the organization.
+- Updates the README.md file with a markdown table containing the repository name, description, and visibility.
+- Commits the changes to the organization's .github/profile/README.md file.
 
-## Usage
+### Required Environment Variables
+
+- `GITHUB_TOKEN`: A personal access token with sufficient permissions to update the organization's repository.
+- `GITHUB_ORGANIZATION`: The name of the organization to update the repository list for.
+- `COMMITTER_NAME`: The name of the committer to be used in the git commit.
+- `COMMITTER_EMAIL`: The email address of the committer to be used in the git commit.
+
+### Usage
+
+To use the script, simply run the following command:
 
 ```
 python generate_readme.py
 ```
 
-This will print a list of your GitHub repositories and their URLs to the console.
+### Notes
 
-## Code Explanation
-
-The `generate_readme.py` script performs the following steps:
-
-1. Imports the necessary modules.
-2. Retrieves the GitHub personal access token from the environment variable `GITHUB_TOKEN`.
-3. Creates a request header with the `Authorization` header set to the token.
-4. Sends a GET request to the GitHub API's `/user/repos` endpoint to fetch the list of repositories.
-5. Parses the response as JSON and iterates over the list of repositories.
-6. For each repository, prints the repository name and its URL to the console.
+- The script assumes that the organization's profile repository is named `.github`.
+- The script only updates the README.md file in the organization's `.github/profile` directory.
+- The script does not delete any existing repository list in the README.md file. If you want to remove the existing list, you will need to edit the README.md file manually.
