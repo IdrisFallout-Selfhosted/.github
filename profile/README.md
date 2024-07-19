@@ -67,7 +67,7 @@ Happy coding! 🌟
 | [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | Point of Sale C# Backend API | <span style='color:red'>Private</span> |
 | [BarakaHardware_App](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_App) | Point of Sale C# Desktop Client | <span style='color:red'>Private</span> |
 | [ReadmeComposer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposer) | An AI automation that creates a repo's README by analyzing the project | <span style='color:red'>Private</span> |
-| [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) | No description provided. | <span style='color:red'>Private</span> |
+| [mediamorphmp3_auth](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_auth) | Authorization microservice demo | <span style='color:red'>Private</span> |
 | [mediamorphmp3_gateway](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_gateway) | No description provided. | <span style='color:red'>Private</span> |
 | [mediamorphmp3_converter](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_converter) | No description provided. | <span style='color:red'>Private</span> |
 | [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) | No description provided. | <span style='color:red'>Private</span> |
