@@ -28,7 +28,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 We'd love to hear from you! Connect with us:
 
 - **Email**: [business@waithakasam.com](mailto:business@waithakasam.com)
-- **Twitter**: [@IdrisFallout](https://twitter.com/IdrisFallout)
+- **Website**: [Samwel Waithaka](https://waithakasam.com)
 - **Discord**: [Link to Discord Server](https://discord.gg/ntkyAxvFc4)
 
 Join us in making an impact through creativity and collaboration!
