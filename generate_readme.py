@@ -56,13 +56,13 @@ def update_readme_with_repos():
 
     if response.status_code == 200:
         repos = response.json()
+        print(f"Fetched repositories: {repos}")  # Debugging info
 
         # Generate Markdown table for repositories
         markdown_table = "\n## Repositories\n\n"
         markdown_table += "| Repository | Description | Visibility |\n"
         markdown_table += "|------------|-------------|------------|\n"
 
-        # Add repositories where you contribute
         for repo in repos:
             repo_name = repo['name']
             is_contrib = is_contributor(repo_name, user)
@@ -71,24 +71,20 @@ def update_readme_with_repos():
                 visibility = "<span style='color:red'>Private</span>" if repo['private'] else "<span style='color:green'>Public</span>"
                 markdown_table += f"| [{repo_name}]({repo['html_url']}) | {description} | {visibility} |\n"
 
+        print(markdown_table)  # Debugging info
+
         # Fetch current README content and SHA
         readme_content, sha = fetch_readme_content()
         if readme_content is not None and sha is not None:
-            # Check if a table already exists in README content
             start_index = readme_content.find("## Repositories")
-
             if start_index != -1:
-                # Remove the existing table by truncating the content at the start of the table
                 readme_content = readme_content[:start_index].strip()
                 updated_readme_content = readme_content + markdown_table
             else:
-                # Append new table
                 updated_readme_content = readme_content + markdown_table
 
-            # Base64 encode the updated content
             encoded_content = base64.b64encode(updated_readme_content.encode('utf-8')).decode('utf-8')
 
-            # Commit changes using GitHub REST API
             commit_message = "Update README with organization repository list"
             api_url = f'https://api.github.com/repos/{org}/.github/contents/profile/README.md'
             payload = {
@@ -99,7 +95,6 @@ def update_readme_with_repos():
             }
 
             response = requests.put(api_url, headers=headers, json=payload)
-
             if response.status_code == 200:
                 print("README.md updated successfully.")
             else:
