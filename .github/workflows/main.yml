@@ -22,7 +22,7 @@ on:
 
 jobs:
   fetch_repos:
-    runs-on: raspberrypi
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
