@@ -61,8 +61,7 @@ def update_readme_with_repos():
     repos = get_repos(org, token)
 
     # Generate Markdown table for repositories
-    markdown_table = "\n## Repositories\n\n"
-    markdown_table += "| Repository | Description | Visibility |\n"
+    markdown_table = "| Repository | Description | Visibility |\n"
     markdown_table += "|------------|-------------|------------|\n"
     for repo in repos:
         # Fetch repository description
@@ -74,16 +73,19 @@ def update_readme_with_repos():
     # Fetch current README content and SHA
     readme_content, sha = fetch_readme_content()
     if readme_content is not None and sha is not None:
-        # Check if a table already exists in README content
+        # Check if a section already exists in README content
         start_index = readme_content.find("## Repositories")
-
         if start_index != -1:
-            # Remove the existing table by truncating the content at the start of the table
-            readme_content = readme_content[:start_index].strip()
-            updated_readme_content = readme_content + markdown_table
+            end_index = readme_content.find("## ", start_index + 1)
+            if end_index == -1:
+                end_index = len(readme_content)
+
+            # Remove the existing table if it exists
+            updated_readme_content = readme_content[
+                                     :start_index] + "## Repositories\n\n" + markdown_table + readme_content[end_index:]
         else:
-            # Append new table
-            updated_readme_content = readme_content + markdown_table
+            # Append new section and table
+            updated_readme_content = readme_content + "\n## Repositories\n\n" + markdown_table
 
         # Base64 encode the updated content
         encoded_content = base64.b64encode(updated_readme_content.encode('utf-8')).decode('utf-8')
