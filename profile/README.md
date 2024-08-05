@@ -66,7 +66,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [SmartWaterMeteringSystemApp](https://github.com/IdrisFallout-Selfhosted/SmartWaterMeteringSystemApp) | No description provided. | <span style='color:green'>Public</span> |
 | [SmartWaterMeteringSystemWeb](https://github.com/IdrisFallout-Selfhosted/SmartWaterMeteringSystemWeb) | No description provided. | <span style='color:red'>Private</span> |
 | [SmartWaterMeteringSystemSimulation](https://github.com/IdrisFallout-Selfhosted/SmartWaterMeteringSystemSimulation) | No description provided. | <span style='color:red'>Private</span> |
-| [MissingChildIoT](https://github.com/IdrisFallout-Selfhosted/MissingChildIoT) | No description provided. | <span style='color:red'>Private</span> |
+| [MissingChildIoT](https://github.com/IdrisFallout-Selfhosted/MissingChildIoT) | IoT webapp to report missing child | <span style='color:red'>Private</span> |
 | [ansible-semaphore](https://github.com/IdrisFallout-Selfhosted/ansible-semaphore) | No description provided. | <span style='color:red'>Private</span> |
 | [test3js](https://github.com/IdrisFallout-Selfhosted/test3js) | No description provided. | <span style='color:red'>Private</span> |
 | [AutoDeployHub](https://github.com/IdrisFallout-Selfhosted/AutoDeployHub) | continuous deployment platform backend API | <span style='color:red'>Private</span> |
