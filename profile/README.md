@@ -36,7 +36,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. | <span style='color:green'>Public</span> |
 | [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | An API to interact with GeminiAI | <span style='color:red'>Private</span> |
 | [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. | <span style='color:red'>Private</span> |
-| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | conversation generation tool. | <span style='color:red'>Private</span> |
+| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | conversation generation tool | <span style='color:red'>Private</span> |
 | [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. | <span style='color:red'>Private</span> |
 | [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | An android client app to use GeminiAI | <span style='color:green'>Public</span> |
 | [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | Point of Sale C# Backend API | <span style='color:red'>Private</span> |
@@ -75,7 +75,6 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [AutoDeployHubWorkFlowManager](https://github.com/IdrisFallout-Selfhosted/AutoDeployHubWorkFlowManager) | Manages all deploys for AutoDeployHub | <span style='color:red'>Private</span> |
 | [WorkflowLogs](https://github.com/IdrisFallout-Selfhosted/WorkflowLogs) | No description provided. | <span style='color:red'>Private</span> |
 | [Swila](https://github.com/IdrisFallout-Selfhosted/Swila) | We provide world class Production, Sound engineering and Mixing & Mastering | <span style='color:red'>Private</span> |
-
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
