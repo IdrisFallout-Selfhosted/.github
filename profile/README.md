@@ -75,3 +75,15 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [AutoDeployHubWorkFlowManager](https://github.com/IdrisFallout-Selfhosted/AutoDeployHubWorkFlowManager) | Manages all deploys for AutoDeployHub | <span style='color:red'>Private</span> |
 | [WorkflowLogs](https://github.com/IdrisFallout-Selfhosted/WorkflowLogs) | No description provided. | <span style='color:red'>Private</span> |
 | [Swila](https://github.com/IdrisFallout-Selfhosted/Swila) | We provide world class Production, Sound engineering and Mixing & Mastering | <span style='color:red'>Private</span> |
+
+## Get in Touch
+
+We'd love to hear from you! Connect with us:
+
+- **Email**: [business@waithakasam.com](mailto:business@waithakasam.com)
+- **Website**: [Samwel Waithaka](https://waithakasam.com)
+- **Discord**: [Link to Discord Server](https://discord.gg/ntkyAxvFc4)
+
+Join us in making an impact through creativity and collaboration!
+
+Happy coding! 🌟
