@@ -97,6 +97,6 @@ Happy coding! 🌟
 | [AutoDeployHub](https://github.com/IdrisFallout-Selfhosted/AutoDeployHub) | continuous deployment platform backend API | <span style='color:red'>Private</span> |
 | [AutoDeployHubWeb](https://github.com/IdrisFallout-Selfhosted/AutoDeployHubWeb) | continuous deployment platform frontend web dashboard | <span style='color:red'>Private</span> |
 | [flask-template](https://github.com/IdrisFallout-Selfhosted/flask-template) | No description provided. | <span style='color:red'>Private</span> |
-| [AutoDeployHubWorkFlowManager](https://github.com/IdrisFallout-Selfhosted/AutoDeployHubWorkFlowManager) | No description provided. | <span style='color:red'>Private</span> |
+| [AutoDeployHubWorkFlowManager](https://github.com/IdrisFallout-Selfhosted/AutoDeployHubWorkFlowManager) | Manages all deploys for AutoDeployHub | <span style='color:red'>Private</span> |
 | [WorkflowLogs](https://github.com/IdrisFallout-Selfhosted/WorkflowLogs) | No description provided. | <span style='color:red'>Private</span> |
 | [Swila](https://github.com/IdrisFallout-Selfhosted/Swila) | We provide world class Production, Sound engineering and Mixing & Mastering | <span style='color:red'>Private</span> |
