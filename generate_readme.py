@@ -24,9 +24,25 @@ def fetch_readme_content():
         print(response.text)
         return None, None
 
+def is_contributor(repo_name, user):
+    token = os.getenv('GITHUB_TOKEN')
+    org = os.getenv('GITHUB_ORGANIZATION')
+    headers = {
+        'Authorization': f'Bearer {token}',
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+    }
+    response = requests.get(f'https://api.github.com/repos/{org}/{repo_name}/collaborators/{user}/permission', headers=headers)
+
+    if response.status_code == 200:
+        permission = response.json().get('permission', '')
+        return permission in ['admin', 'write']
+    return False
+
 def update_readme_with_repos():
     token = os.getenv('GITHUB_TOKEN')
     org = os.getenv('GITHUB_ORGANIZATION')
+    user = os.getenv('GITHUB_USERNAME')
     committer_name = os.getenv('COMMITTER_NAME')
     committer_email = os.getenv('COMMITTER_EMAIL')
     headers = {
@@ -45,11 +61,15 @@ def update_readme_with_repos():
         markdown_table = "\n## Repositories\n\n"
         markdown_table += "| Repository | Description | Visibility |\n"
         markdown_table += "|------------|-------------|------------|\n"
+
+        # Add repositories where you contribute
         for repo in repos:
-            # Fetch repository description
-            description = repo['description'] if repo['description'] else "No description provided."
-            visibility = "<span style='color:red'>Private</span>" if repo['private'] else "<span style='color:green'>Public</span>"
-            markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} | {visibility} |\n"
+            repo_name = repo['name']
+            is_contrib = is_contributor(repo_name, user)
+            if is_contrib:
+                description = repo['description'] if repo['description'] else "No description provided."
+                visibility = "<span style='color:red'>Private</span>" if repo['private'] else "<span style='color:green'>Public</span>"
+                markdown_table += f"| [{repo_name}]({repo['html_url']}) | {description} | {visibility} |\n"
 
         # Fetch current README content and SHA
         readme_content, sha = fetch_readme_content()
