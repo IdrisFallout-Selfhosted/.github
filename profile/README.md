@@ -61,7 +61,7 @@ Happy coding! 🌟
 | [.github](https://github.com/IdrisFallout-Selfhosted/.github) | No description provided. | <span style='color:green'>Public</span> |
 | [GeminiAIChatBot_Server](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_Server) | An API to interact with GeminiAI | <span style='color:red'>Private</span> |
 | [demo-repository](https://github.com/IdrisFallout-Selfhosted/demo-repository) | A code repository designed to show the best GitHub has to offer. | <span style='color:red'>Private</span> |
-| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | No description provided. | <span style='color:red'>Private</span> |
+| [ConvoGenie](https://github.com/IdrisFallout-Selfhosted/ConvoGenie) | conversation generation tool | <span style='color:red'>Private</span> |
 | [VoiceSphere_Server](https://github.com/IdrisFallout-Selfhosted/VoiceSphere_Server) | No description provided. | <span style='color:red'>Private</span> |
 | [GeminiAIChatBot_App](https://github.com/IdrisFallout-Selfhosted/GeminiAIChatBot_App) | An android client app to use GeminiAI | <span style='color:green'>Public</span> |
 | [BarakaHardware_Server](https://github.com/IdrisFallout-Selfhosted/BarakaHardware_Server) | Point of Sale C# Backend API | <span style='color:red'>Private</span> |
