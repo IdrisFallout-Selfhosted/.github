@@ -1,5 +1,29 @@
 import os
 import requests
+import base64
+
+
+def fetch_readme_content():
+    token = os.getenv('GITHUB_TOKEN')
+    org = os.getenv('GITHUB_ORGANIZATION')
+    headers = {
+        'Authorization': f'token {token}',
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+    }
+    response = requests.get(f'https://api.github.com/repos/{org}/.github/contents/profile/README.md', headers=headers)
+
+    if response.status_code == 200:
+        readme_data = response.json()
+        # Decode base64 content
+        readme_content = base64.b64decode(readme_data['content']).decode('utf-8')
+        return readme_content, readme_data['sha']
+    elif response.status_code == 404:
+        return None, None  # README.md not found
+    else:
+        print(f"Failed to fetch README.md. Status code: {response.status_code}")
+        print(response.text)
+        return None, None
 
 
 def get_repos(org, token):
@@ -13,7 +37,7 @@ def get_repos(org, token):
             repo_data = response.json()
             if not repo_data:
                 break
-            repos.extend(repo['name'] for repo in repo_data)
+            repos.extend(repo_data)
             page += 1
         else:
             print(f"Failed to fetch repositories. Status code: {response.status_code}")
@@ -22,33 +46,68 @@ def get_repos(org, token):
     return repos
 
 
-def is_contributor(repo_name, user, org, token):
-    response = requests.get(f'https://api.github.com/repos/{org}/{repo_name}/collaborators/{user}/permission',
-                            headers={'Authorization': f'token {token}'})
-    if response.status_code == 200:
-        permission = response.json().get('permission', '')
-        return permission in ['admin', 'write']
-    return False
-
-
-def main():
-    org = os.getenv('GITHUB_ORGANIZATION')
+def update_readme_with_repos():
     token = os.getenv('GITHUB_TOKEN')
-    user = os.getenv('COMMITTER_NAME')
+    org = os.getenv('GITHUB_ORGANIZATION')
+    committer_name = os.getenv('COMMITTER_NAME')
+    committer_email = os.getenv('COMMITTER_EMAIL')
+    headers = {
+        'Authorization': f'token {token}',
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+    }
 
-    if not org or not token or not user:
-        print(
-            "Error: One or more environment variables (GITHUB_ORGANIZATION, GITHUB_TOKEN, COMMITTER_NAME) are not set.")
-        return
-
-    # Get all repos in the organization
+    # Fetch repositories from GitHub API
     repos = get_repos(org, token)
 
-    # Check contributor status for each repo
+    # Generate Markdown table for repositories
+    markdown_table = "\n## Repositories\n\n"
+    markdown_table += "| Repository | Description | Visibility |\n"
+    markdown_table += "|------------|-------------|------------|\n"
     for repo in repos:
-        if is_contributor(repo, user, org, token):
-            print(repo)
+        # Fetch repository description
+        description = repo['description'] if repo['description'] else "No description provided."
+        visibility = "<span style='color:red'>Private</span>" if repo[
+            'private'] else "<span style='color:green'>Public</span>"
+        markdown_table += f"| [{repo['name']}]({repo['html_url']}) | {description} | {visibility} |\n"
+
+    # Fetch current README content and SHA
+    readme_content, sha = fetch_readme_content()
+    if readme_content is not None and sha is not None:
+        # Check if a table already exists in README content
+        start_index = readme_content.find("## Repositories")
+
+        if start_index != -1:
+            # Remove the existing table by truncating the content at the start of the table
+            readme_content = readme_content[:start_index].strip()
+            updated_readme_content = readme_content + markdown_table
+        else:
+            # Append new table
+            updated_readme_content = readme_content + markdown_table
+
+        # Base64 encode the updated content
+        encoded_content = base64.b64encode(updated_readme_content.encode('utf-8')).decode('utf-8')
+
+        # Commit changes using GitHub REST API
+        commit_message = "Update README with organization repository list"
+        api_url = f'https://api.github.com/repos/{org}/.github/contents/profile/README.md'
+        payload = {
+            "message": commit_message,
+            "content": encoded_content,
+            "sha": sha,
+            "committer": {"name": committer_name, "email": committer_email}
+        }
+
+        response = requests.put(api_url, headers=headers, json=payload)
+
+        if response.status_code == 200:
+            print("README.md updated successfully.")
+        else:
+            print(f"Failed to update README.md. Status code: {response.status_code}")
+            print(response.text)
+    else:
+        print("Failed to fetch README content.")
 
 
 if __name__ == "__main__":
-    main()
+    update_readme_with_repos()
