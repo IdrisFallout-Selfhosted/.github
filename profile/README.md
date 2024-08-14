@@ -75,6 +75,8 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [AutoDeployHubWorkFlowManager](https://github.com/IdrisFallout-Selfhosted/AutoDeployHubWorkFlowManager) | Manages all deploys for AutoDeployHub | <span style='color:red'>Private</span> |
 | [WorkflowLogs](https://github.com/IdrisFallout-Selfhosted/WorkflowLogs) | No description provided. | <span style='color:red'>Private</span> |
 | [Swila](https://github.com/IdrisFallout-Selfhosted/Swila) | We provide world class Production, Sound engineering and Mixing & Mastering | <span style='color:red'>Private</span> |
+| [Curricon](https://github.com/IdrisFallout-Selfhosted/Curricon) | No description provided. | <span style='color:red'>Private</span> |
+| [API-B2](https://github.com/IdrisFallout-Selfhosted/API-B2) | No description provided. | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
