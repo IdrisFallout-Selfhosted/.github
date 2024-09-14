@@ -77,6 +77,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [Swila](https://github.com/IdrisFallout-Selfhosted/Swila) | We provide world class Production, Sound engineering and Mixing & Mastering | <span style='color:red'>Private</span> |
 | [Curricon](https://github.com/IdrisFallout-Selfhosted/Curricon) | No description provided. | <span style='color:red'>Private</span> |
 | [API-B2](https://github.com/IdrisFallout-Selfhosted/API-B2) | No description provided. | <span style='color:red'>Private</span> |
+| [MailAPI](https://github.com/IdrisFallout-Selfhosted/MailAPI) | No description provided. | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
