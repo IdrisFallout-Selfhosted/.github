@@ -80,6 +80,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [MailAPI](https://github.com/IdrisFallout-Selfhosted/MailAPI) | A micro-service API to send emails | <span style='color:red'>Private</span> |
 | [HomelabArchitectureAPI](https://github.com/IdrisFallout-Selfhosted/HomelabArchitectureAPI) | A backend API to show homelab architecture | <span style='color:red'>Private</span> |
 | [HomelabArchitectureFrontend](https://github.com/IdrisFallout-Selfhosted/HomelabArchitectureFrontend) | a react app to visualize and control homelab architecture | <span style='color:red'>Private</span> |
+| [Child-tag](https://github.com/IdrisFallout-Selfhosted/Child-tag) | No description provided. | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
