@@ -82,7 +82,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [HomelabArchitectureFrontend](https://github.com/IdrisFallout-Selfhosted/HomelabArchitectureFrontend) | a react app to visualize and control homelab architecture | <span style='color:red'>Private</span> |
 | [Child-tag](https://github.com/IdrisFallout-Selfhosted/Child-tag) | No description provided. | <span style='color:red'>Private</span> |
 | [YoutubeHistoryScrap](https://github.com/IdrisFallout-Selfhosted/YoutubeHistoryScrap) | a rabbitmq consumer to log youtube history as videos are being played. | <span style='color:red'>Private</span> |
-| [ReadmeComposerConsumer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposerConsumer) | a rabbitmq consumer for readmecomposer | <span style='color:red'>Private</span> |
+| [ReadmeComposerConsumer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposerConsumer) | a rabbitmq consumer for readmecomposer. | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
