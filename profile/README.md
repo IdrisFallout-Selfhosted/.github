@@ -83,6 +83,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [Child-tag](https://github.com/IdrisFallout-Selfhosted/Child-tag) | No description provided. | <span style='color:red'>Private</span> |
 | [YoutubeHistoryScrap](https://github.com/IdrisFallout-Selfhosted/YoutubeHistoryScrap) | a rabbitmq consumer to log youtube history as videos are being played | <span style='color:red'>Private</span> |
 | [ReadmeComposerConsumer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposerConsumer) | a rabbitmq consumer for readmecomposer | <span style='color:red'>Private</span> |
+| [perfume-recommender-system](https://github.com/IdrisFallout-Selfhosted/perfume-recommender-system) | a perfume recommender system | <span style='color:green'>Public</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
