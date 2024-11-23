@@ -84,6 +84,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [YoutubeHistoryScrap](https://github.com/IdrisFallout-Selfhosted/YoutubeHistoryScrap) | a rabbitmq consumer to log youtube history as videos are being played | <span style='color:red'>Private</span> |
 | [ReadmeComposerConsumer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposerConsumer) | a rabbitmq consumer for readmecomposer | <span style='color:red'>Private</span> |
 | [perfume-recommender-system](https://github.com/IdrisFallout-Selfhosted/perfume-recommender-system) | a perfume recommender system | <span style='color:green'>Public</span> |
+| [ms_course_content_client](https://github.com/IdrisFallout-Selfhosted/ms_course_content_client) | a course content web client | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
