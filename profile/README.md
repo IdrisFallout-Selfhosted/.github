@@ -85,6 +85,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [ReadmeComposerConsumer](https://github.com/IdrisFallout-Selfhosted/ReadmeComposerConsumer) | a rabbitmq consumer for readmecomposer | <span style='color:red'>Private</span> |
 | [perfume-recommender-system](https://github.com/IdrisFallout-Selfhosted/perfume-recommender-system) | a perfume recommender system | <span style='color:green'>Public</span> |
 | [ms_course_content_client](https://github.com/IdrisFallout-Selfhosted/ms_course_content_client) | a course content web client | <span style='color:red'>Private</span> |
+| [matomoanalyzer](https://github.com/IdrisFallout-Selfhosted/matomoanalyzer) | analyzes matomo push events further | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
