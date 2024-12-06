@@ -56,7 +56,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [PortfolioWebsite_Frontend](https://github.com/IdrisFallout-Selfhosted/PortfolioWebsite_Frontend) | No description provided. | <span style='color:red'>Private</span> |
 | [portfolio-website-frontend](https://github.com/IdrisFallout-Selfhosted/portfolio-website-frontend) | This is my portfolio website | <span style='color:red'>Private</span> |
 | [WhisperAPI](https://github.com/IdrisFallout-Selfhosted/WhisperAPI) | No description provided. | <span style='color:red'>Private</span> |
-| [MailServer](https://github.com/IdrisFallout-Selfhosted/MailServer) | No description provided. | <span style='color:red'>Private</span> |
+| [MailServer](https://github.com/IdrisFallout-Selfhosted/MailServer) | rabbitmq consumer to send mails | <span style='color:red'>Private</span> |
 | [portfoliowebsite2.0](https://github.com/IdrisFallout-Selfhosted/portfoliowebsite2.0) | No description provided. | <span style='color:red'>Private</span> |
 | [FaceRecognition](https://github.com/IdrisFallout-Selfhosted/FaceRecognition) | No description provided. | <span style='color:red'>Private</span> |
 | [LLMHub](https://github.com/IdrisFallout-Selfhosted/LLMHub) | No description provided. | <span style='color:red'>Private</span> |
