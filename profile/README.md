@@ -86,6 +86,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [perfume-recommender-system](https://github.com/IdrisFallout-Selfhosted/perfume-recommender-system) | a perfume recommender system | <span style='color:green'>Public</span> |
 | [ms_course_content_client](https://github.com/IdrisFallout-Selfhosted/ms_course_content_client) | a course content web client | <span style='color:red'>Private</span> |
 | [matomoanalyzer](https://github.com/IdrisFallout-Selfhosted/matomoanalyzer) | analyzes matomo push events further | <span style='color:red'>Private</span> |
+| [fakeLB](https://github.com/IdrisFallout-Selfhosted/fakeLB) | my own version of a cloudflare loadbalancer | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
