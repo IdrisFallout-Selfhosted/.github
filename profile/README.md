@@ -91,7 +91,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 
 We'd love to hear from you! Connect with us:
 
-- **Email**: [business@waithakasam.com](mailto:business@waithakasam.com)
+- **Email**: [dev@waithakasam.com](mailto:dev@waithakasam.com)
 - **Website**: [Samwel Waithaka](https://waithakasam.com)
 - **Discord**: [Link to Discord Server](https://discord.gg/ntkyAxvFc4)
 
