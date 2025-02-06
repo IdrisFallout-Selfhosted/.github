@@ -48,7 +48,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [mediamorphmp3_notification](https://github.com/IdrisFallout-Selfhosted/mediamorphmp3_notification) | Rabbitmq consumer node for notification microservice demo | <span style='color:red'>Private</span> |
 | [RealFlowVision](https://github.com/IdrisFallout-Selfhosted/RealFlowVision) | No description provided. | <span style='color:red'>Private</span> |
 | [TukoNewsAPI](https://github.com/IdrisFallout-Selfhosted/TukoNewsAPI) | API for accessing Tuko News data | <span style='color:red'>Private</span> |
-| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | Mobile application for Tuko News | <span style='color:green'>Public</span> |
+| [TukoNewsApp](https://github.com/IdrisFallout-Selfhosted/TukoNewsApp) | Mobile application for Tuko News | <span style='color:red'>Private</span> |
 | [ImageProbe_Server](https://github.com/IdrisFallout-Selfhosted/ImageProbe_Server) | No description provided. | <span style='color:red'>Private</span> |
 | [DreamForgeNotificationBot](https://github.com/IdrisFallout-Selfhosted/DreamForgeNotificationBot) | No description provided. | <span style='color:red'>Private</span> |
 | [Portfolio_Server](https://github.com/IdrisFallout-Selfhosted/Portfolio_Server) | A backend for my portfolio website | <span style='color:red'>Private</span> |
@@ -87,6 +87,10 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [ms_course_content_client](https://github.com/IdrisFallout-Selfhosted/ms_course_content_client) | a course content web client | <span style='color:red'>Private</span> |
 | [matomoanalyzer](https://github.com/IdrisFallout-Selfhosted/matomoanalyzer) | analyzes matomo push events further | <span style='color:red'>Private</span> |
 | [fakeLB](https://github.com/IdrisFallout-Selfhosted/fakeLB) | my own version of a cloudflare loadbalancer | <span style='color:red'>Private</span> |
+| [LoggingServer](https://github.com/IdrisFallout-Selfhosted/LoggingServer) | a server to aggregate logs from applications | <span style='color:red'>Private</span> |
+| [firebase-cloud-messaging](https://github.com/IdrisFallout-Selfhosted/firebase-cloud-messaging) | an FCM notifications trigger server | <span style='color:red'>Private</span> |
+| [idayliff-mobile](https://github.com/IdrisFallout-Selfhosted/idayliff-mobile) | an iot app to monitor equipment data | <span style='color:red'>Private</span> |
+| [FarmMate](https://github.com/IdrisFallout-Selfhosted/FarmMate) | a farm management app | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
