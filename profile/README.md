@@ -91,6 +91,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [firebase-cloud-messaging](https://github.com/IdrisFallout-Selfhosted/firebase-cloud-messaging) | an FCM notifications trigger server | <span style='color:red'>Private</span> |
 | [idayliff-mobile](https://github.com/IdrisFallout-Selfhosted/idayliff-mobile) | an iot app to monitor equipment data | <span style='color:red'>Private</span> |
 | [FarmMate](https://github.com/IdrisFallout-Selfhosted/FarmMate) | a farm management app | <span style='color:red'>Private</span> |
+| [MeetingAgent](https://github.com/IdrisFallout-Selfhosted/MeetingAgent) | a script to detect when someone joins an online meeting | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
