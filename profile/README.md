@@ -93,6 +93,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [FarmMate](https://github.com/IdrisFallout-Selfhosted/FarmMate) | a farm management app | <span style='color:red'>Private</span> |
 | [MeetingAgent](https://github.com/IdrisFallout-Selfhosted/MeetingAgent) | a script to detect when someone joins an online meeting | <span style='color:red'>Private</span> |
 | [app-docs-hub](https://github.com/IdrisFallout-Selfhosted/app-docs-hub) | a website for my app external docs | <span style='color:red'>Private</span> |
+| [MeetingAgentConsumer](https://github.com/IdrisFallout-Selfhosted/MeetingAgentConsumer) | analyzes and summarizes meeting recordings | <span style='color:red'>Private</span> |
 ## Get in Touch
 
 We'd love to hear from you! Connect with us:
