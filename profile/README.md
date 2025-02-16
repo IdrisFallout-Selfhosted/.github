@@ -59,7 +59,7 @@ Interested in joining our organization and collaborating with us? [Request to jo
 | [MailServer](https://github.com/IdrisFallout-Selfhosted/MailServer) | rabbitmq consumer to send mails | <span style='color:red'>Private</span> |
 | [portfoliowebsite2.0](https://github.com/IdrisFallout-Selfhosted/portfoliowebsite2.0) | No description provided. | <span style='color:red'>Private</span> |
 | [FaceRecognition](https://github.com/IdrisFallout-Selfhosted/FaceRecognition) | No description provided. | <span style='color:red'>Private</span> |
-| [LLMHub](https://github.com/IdrisFallout-Selfhosted/LLMHub) | No description provided. | <span style='color:red'>Private</span> |
+| [LLMHub](https://github.com/IdrisFallout-Selfhosted/LLMHub) | self-hosted chatbot api power by LLM | <span style='color:red'>Private</span> |
 | [Brian](https://github.com/IdrisFallout-Selfhosted/Brian) | Brian is a discord bot | <span style='color:red'>Private</span> |
 | [InternetBillingSystem](https://github.com/IdrisFallout-Selfhosted/InternetBillingSystem) | No description provided. | <span style='color:red'>Private</span> |
 | [SmartWaterMeteringSystem](https://github.com/IdrisFallout-Selfhosted/SmartWaterMeteringSystem) | No description provided. | <span style='color:red'>Private</span> |
